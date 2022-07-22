@@ -1,11 +1,14 @@
 package expgo
 import (
     "fmt"
-    "go/format"
-    "os"
-    "os/exec"
+   // "go/format"
+   // "os"
+   // "os/exec"
 )
 
-fun _(){
+func _1(){
     fmt.Printf("%d",111)
+}
+func main() {
+    _1()
 }
